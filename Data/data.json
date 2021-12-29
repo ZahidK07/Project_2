@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "category_id": 1,
+        "product": "Supplement",
+        "name": "GoldWhey",
+        "weight": 4"lbs",
+        "price": 5500"Rs",
+    }
+    {
+        "id": 2,
+        "category_id": 2,
+        "product": "Clothing",
+        "type": "T-Shirt",
+        "size": "S" "M" "L" "XL",
+        "price": 1500"Rs",
+    }
+    {
+        "id": 3,
+        "category_id": "Diet_Meals",
+        "product_type": "Food",
+        "price": "Depends_On_Plan"
+    }
+    {
+        "id": 4,
+        "category_id": 4,
+        "type": "Excercise",
+        "price": "Depends_On_Plan"
+    }
+]

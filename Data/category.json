@@ -1,0 +1,18 @@
+[
+    {
+        "id":1,
+        "category":"Nutrition_&_Supplements"
+    }
+    {
+        "id":2,
+        "category":"Clothing"
+    }
+    {
+        "id":3,
+        "category":"Diet_Meals"
+    }
+    {
+        "id":4,
+        "category":"Workout"
+    }
+]
