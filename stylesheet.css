@@ -1,0 +1,296 @@
+body {
+    margin: auto;
+}
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    background: black;
+}
+
+#Logo {
+    height: 30px;
+    margin-left: -9px;
+}
+
+.navbar-nav{
+    margin-left: 10px;
+}
+
+#aTag {
+    text-decoration: none;
+    color: white;
+    margin-left: 35px;
+    font-family: 'Impact';
+    font-style: italic;
+    font-size: 20px;
+}
+
+#aTag:hover:visited{
+    text-decoration: none;
+    color: white;  
+}
+
+.form-control {
+    width: 160%;
+    border-radius: 30px;
+    margin-top: 15px;
+    margin-left: -170%;
+}
+
+#Coupon{
+    position: absolute;
+    margin-top: 2rem;
+    margin-left: 15rem;
+    z-index: 999;
+}
+
+#Coupon > img {
+    width: 54rem;
+    height: 28rem;
+    cursor: pointer;
+}
+
+#couponBtn {
+    position: absolute;
+    z-index: 100;
+    margin-left: 3px;
+    height: 50px;
+    width: 50px;
+    background: white;
+    color: red;
+    margin-top: 3px;
+}
+
+/*Navbar ends*/
+
+#promoCard{
+    height: 450px;
+    margin-left: 62px;
+    margin-top: 4%;    
+}
+
+#promoCard > img{
+    width: 100%;
+}
+
+#promoCard > h1{
+    margin-top: -32%;
+    font-family: fantasy;
+    font-style: italic;
+    font-size: 55px;
+}
+
+#PromoMsg{
+    font-size: 25px;
+}
+
+.btn{
+    margin-top: 1%;
+    width: 18%;
+    height: 12%;
+    font-family: 'Impact';
+    font-style: italic;
+    font-size: 23px;
+}
+
+.HomeCards{
+    border: solid 1px grey;
+    height: 300px;
+    padding-block: 3%;
+}
+
+#HomeCards{
+    padding-block: 5%;
+}
+
+#Card1{
+    margin-left: 75px;
+    cursor: pointer;
+}
+
+#Card1 > img {
+    width: 112%;
+    height: 300px;
+    margin-top: -21%;
+    margin-left: -12px;
+}
+
+#Card2{
+    margin-left: 22px;
+    cursor: pointer;
+}
+
+#Card2 > img {
+    width: 111.5%;
+    height: 250px;
+    margin-top: -20.5%;
+    margin-left: -11.5px;
+}
+
+#Card3{
+    margin-left: 22px;
+    cursor: pointer;
+}
+
+#Card3 > img {
+    width: 111.5%;
+    height: 250px;
+    margin-top: -20.5%;
+    margin-left: -11.5px;
+}
+
+#Card4{
+    margin-left: 22px;
+    cursor: pointer;
+}
+
+#Card4 > img {
+    width: 111.5%;
+    height: 250px;
+    margin-top: -20.5%;
+    margin-left: -11.5px;
+}
+
+#Card5{
+    margin-left: 22px;
+    cursor: pointer;
+}
+
+#Card5 > img {
+    width: 95.5%;
+    height: 170px;
+    margin-top: -3.5%;
+    margin-left: -0.5px;
+}
+
+.flashSale{
+    margin-top: 10rem;
+}
+
+.flashSale > img {
+    height: 285px;
+    width: 548%;
+    margin-left: 29%;  
+}
+
+#saleHeading{
+    margin-top: -16rem;
+    margin-left: 50%;
+    width: 550px;
+    color: white;
+    font-family: 'Impact';
+    font-style: italic;
+}
+
+#saleBtn{
+    margin-top: 1%;
+    width: 70%;
+    height: 12%;
+    font-family: 'Impact';
+    font-style: italic;
+    font-size: 23px;
+    margin-left: 10rem;
+}
+
+#Shop{
+    color: rgb(29, 28, 28);
+    font-family: 'Impact';
+    font-style: italic;
+    margin-top: 17rem;
+}
+
+#Shop > h1{
+    font-size: 45px;
+    
+}
+
+#ShopCategory{
+    margin-top: 4%;
+}
+
+#ShopCards{
+    margin-top: 2%;
+}
+
+#Card6{
+    margin-left: 80px;
+    cursor: pointer;
+}
+
+#Card6 > img {
+    width: 112%;
+    height: 300px;
+    margin-top: -21%;
+    margin-left: -12px;
+}
+
+#Card7{
+    margin-left: 22px;
+    cursor: pointer;
+}
+
+#Card7 > img {
+    width: 111.5%;
+    height: 250px;
+    margin-top: -20.5%;
+    margin-left: -11.5px;
+}
+
+#Card8{
+    margin-left: 22px;
+    cursor: pointer;
+}
+
+#Card8 > img {
+    width: 111.5%;
+    height: 250px;
+    margin-top: -20.5%;
+    margin-left: -11.5px;
+}
+
+#Card9{
+    margin-left: 22px;
+    cursor: pointer;
+}
+
+#Card9 > img {
+    width: 111.5%;
+    height: 250px;
+    margin-top: -20.5%;
+    margin-left: -11.5px;
+}
+
+#Card10{
+    margin-left: 22px;
+    cursor: pointer;
+}
+
+#Card10 > img {
+    width: 95.5%;
+    height: 170px;
+    margin-top: -3.5%;
+    margin-left: -0.5px;
+}
+
+
+/**
+@media (min-width: 576px){
+    body{
+        
+    }
+    #promoCard > h1{
+        font-size: 21px;
+    }  
+    
+    #PromoMsg{
+        font-size: 8px;
+    }
+
+    .btn {
+        margin-top: 2%;
+        width: 18%;
+        height: 6%;
+        font-size: 10px;
+    }
+}
