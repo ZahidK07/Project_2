@@ -1,0 +1,53 @@
+body{
+    margin: auto;
+}
+
+.Div{
+    border: solid black;
+    height: 200px;
+}
+
+.Div > img{
+    height: 100%;
+    width: 100%;
+}
+
+@media (max-width: 374px) and (min-width: 280px){
+    
+    .Div{
+      background: rgb(238, 255, 0);  
+    }
+
+
+}
+
+@media (max-width: 575px) and (min-width: 375px){
+    
+    .Div{
+      background: rgb(195, 0, 255);  
+    }
+}
+
+
+@media (max-width: 767px) and (min-width: 574px){
+    .Div{
+      background: rgb(102, 255, 0);  
+    }
+}
+
+@media (max-width: 992px) and (min-width: 768px){
+
+    #myRow{
+        margin-left: 5px;
+    }
+
+    .Div{
+      margin-left: 5px; 
+      height: 250px;  
+    }
+
+    .Div > img{
+    height: 100%;
+    margin-left: 5px;
+}
+}
