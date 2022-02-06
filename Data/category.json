@@ -1,21 +1,15 @@
 [
     {
         "id":1,
-        "category":"Nutrition_&_Supplements",
+        "category":"Shop",
     },
 
     {
         "id":2,
-        "category":"Clothing",
+        "category":"Articles",
     },
-
     {
         "id":3,
-        "category":"Diet_Meals",
+        "category":"Workouts",
     },
-
-    {
-        "id":4,
-        "category":"Workout",
-    }
 ]

@@ -1,840 +1,514 @@
-body {
+body{
     margin: auto;
 }
 
-#myNav{
-    background: black;
+#logo{
+    margin: -3px 5px;
 }
 
-#navOptions{
+    #logo img{
+        height: 30px;
+}
+
+.navbar{
+    background: black !important;
+}
+
+
+#options{
+    margin-bottom: -5px;
+}
+
+#Links{
     color: white;
-    padding-right: 3rem;
-}
-
-#address{
     font-size: 20px;
-    font-weight: bold;
-    margin-top: -5%;
-    margin-left: 14%;
-}
-
-.card-img-top{
-    width: 7%;
-    margin-left: 30%;
-    margin-top: -4%;
-}
-
-#out{
-    margin-left: 50%;
-    font-size: 10px;
-    margin-top: -40px;
-    color: white;
-}
-
-#Coupon{
-    position: absolute;
-    margin-left: 15rem;
-    margin-top: -2%;
-}
-
-#Coupon > img {
-    width: 80%;
-    height: 450px;
-    position: fixed;
-    margin-left: -8%;
-    margin-top: 7%;
-}
-
-#couponBtn {
-    background: rgb(39, 39, 39);
-    color: rgb(255, 255, 255);
-    position: fixed;
-    margin-left: -104px;
-    margin-top: 97px;
-    z-index: 100;
-    height: 60px;
-    width: 60px;
-}
-
-.navbar-brand > img{
-    height: 31px;
-    margin-left: 5px;
-    color: white;
-}
-
-#mynavbar{
-    margin-left: 2%;
-    color: white;
-}
-
-#mynavbar > ul{
-    font-size: 20px;
-    font-family: impact;
+    font-family: Impact;
     font-style: italic;
-    color: white;
-    margin-left: 5px;
-    display: flex;
-    justify-content: space-evenly;
+        margin-top: 2px;
 }
 
 .nav-item{
-    
+   margin: 0px 10px;
 }
 
-/*Navbar ends*/
-
-#promoCard{
-    height: 650px;
-    margin-left: 40px;
-    margin-top: 11%;    
-}
-
-#promoCard > img{
-    width: 103%;
-}
-
-#promoCard > h1{
-    margin-top: -32%;
-    font-family: fantasy;
-    font-style: italic;
-    font-size: 55px;
-}
-
-#PromoMsg{
-    font-size: 25px;
-}
-
-#promoBtn{
-    margin-top: 1%;
-    width: 18%;
-    height: 12%;
-    font-family: 'Impact';
-    font-style: italic;
-    font-size: 23px;
-}
-
-.HomeCards{
-
-    height: 300px;
-    padding-block: 3%;
-}
-
-#HomeCards{
-    padding-block: 1%;
-}
-
-#Card1{
-    margin-left: 75px;
-    cursor: pointer;
-}
-
-#Card1 > img {
-    width: 112%;
-    height: 300px;
-    margin-top: -21%;
-    margin-left: -12px;
-}
-
-#Card2{
-    margin-left: 22px;
-    cursor: pointer;
-}
-
-#Card2 > img {
-    width: 111.5%;
-    height: 298px;
-    margin-top: -20.5%;
-    margin-left: -11.5px;
-}
-
-#Card3{
-    margin-left: 22px;
-    cursor: pointer;
-}
-
-#Card3 > img {
-    width: 111.5%;
-    height: 298px;
-    margin-top: -20.5%;
-    margin-left: -11.5px;
-}
-
-#Card4{
-    margin-left: 22px;
-    cursor: pointer;
-}
-
-#Card4 > img {
-    width: 111.5%;
-    height: 298px;
-    margin-top: -20.5%;
-    margin-left: -12.5px;
-}
-
-#Card5{
-    margin-left: 22px;
-    cursor: pointer;
-}
-
-#Card5 > img {
-    width: 111.5%;
-    height: 298px;
-    margin-top: -20.5%;
-    margin-left: -12.5px;
-}
-
-.flashSale{
-    margin-top: 10rem;
-}
-
-.flashSale > img {
-    height: 285px;
-    width: 548%;
-    margin-left: 29%;  
-}
-
-#saleHeading{
-    margin-top: -16rem;
-    margin-left: 50%;
-    width: 550px;
+#Links:hover{
     color: white;
-    font-family: 'Impact';
-    font-style: italic;
-    font-size: 48px;
+    text-decoration: underline blue;
 }
 
-#saleText{
-    margin-left: 7rem;
-    width: 45rem;        
+
+#Coupon{
+    width: 350px;
+    height: 250px;
+    border: solid red;
+    background: black;
+    position: fixed;
+    z-index: 1000;
+    margin-left: 15rem;
+    margin-top: -2%;    
 }
 
-#saleBtn{
-    margin-top: 15%;
-    width: 70%;
-    height: 9%;
-    font-family: 'Impact';
+#Promo{ 
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    word-wrap: break-word;
+    margin: 5% 5.5%;
+}
+
+#firstHeader{
+    position: absolute;
+    margin: 15% 23%;
+    color: white;
+    background-color: none;
+    border-bottom: 0px;
     font-style: italic;
+    font-family: Impact;
+    font-size: 45px;
+}
+
+#para1{
+    position: absolute;
+    margin: 30% 16%;
+    color: #ffffff;
     font-size: 25px;
-    margin-left: 10rem;
 }
 
-#Shop{
-    color: rgb(29, 28, 28);
-    font-family: 'Impact';
+.headerCard{
+    position: absolute;
+    margin-top: -10%;
+    width: 98%;
+    margin-left: auto; margin-right: auto;
+}
+
+.headerCard h1{
+    font-size: 45px;
+}
+
+.card-title {
+    margin-bottom: 0.5rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.card-text{
+    text-align: center;
+}
+
+.prodName{
+    text-align: center;
+}
+
+#discountCard{
+    width: 250px;
+    margin-left: 1%;
+    margin-top: 1%;
+    cursor: pointer;
+}
+
+#discountCard >img{
+    width: 248px;
+    margin-left: -12px;
+}
+
+#discountCard > div > h4{
+    text-align: center;
+    margin-top: revert;
+}
+
+#discountCard > div > h3{   
+    text-align: center;
+    margin-top: revert;
+}
+
+#discountCard > div > h3:hover{   
+    color: rgb(248, 47, 47);
+}
+
+#homeProd{
+    margin-left: 1%;
+    margin-top: 1%;
+    width: 250px;
+    cursor: pointer;
+}
+
+.FlashSale{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0px;
+    margin-top: 10%;
+}
+
+
+#flashSale_h1{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    margin: 1% 5%;
+    font-family: Impact;
     font-style: italic;
+    font-size: 38px;
+}
+
+#flashSale_p{
+    color: white;
+    position: absolute;
+    margin: 10% 5%;
+    font-size: 22px;
+}
+
+.shopBtn{
+    width: 11%;
+    font-size: 25px;
+    font-style: italic;
+    font-family: impact;
+    height: 19%;
+    position: absolute;
+    margin: 14% 5%;
+}
+
+#weightLoss{
+    margin-top: 6%;
+}
+
+#header{
+    color: black;
+    font-family: Impact;
+    font-style: italic;
+    margin-top: 14%;
+    margin-bottom: 3%;
+}
+
+#goalCard{
+    width: 315px;
+    height: 420px;
+    margin-left: 10px;
+    border: 0px;
+}
+
+#goalCard img{
+    width: 315px;
+    margin-left: -15px
+}
+
+#goal{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: -20rem;
+    font-size: 40px;
+    font-family: Impact;
+    font-style: italic;
+}
+
+#goalCard a{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+#footer{
+    height: 60px;
+    background: black;
     margin-top: 10rem;
 }
 
-#Shop > h1{
-    font-size: 45px;
-    
+.social-connects{
+    height: 400px;
+    margin-top: 20%;
 }
 
-#ShopCategory{
-    margin-top: 4%;
+#connectSocial{
+    display: flex;
+    justify-content: center;
 }
 
-#ShopCards{
-    margin-top: 2%;
+#connectSocial img{
+    height: 33px;
+    width: 33px;
 }
 
-#Card6{
-    margin-left: 35px;
-    cursor: pointer;
+.h6 a{
+    margin-top: auto;
 }
 
-#Card6 > img {
-    width: 120.5%;
-    height: 310px;
-    margin-top: -20.5%;
-    margin-left: -11px;
-}
-
-#Card7{
-    margin-left: 35px;
-    cursor: pointer;
-}
-
-#Card7 > img {
-    width: 120.5%;
-    height: 310px;
-    margin-top: -20.5%;
-    margin-left: -12px;
-}
-
-#Card8{
-    margin-left: 35px;
-    cursor: pointer;
-}
-
-#Card8 > img {
-    width: 120.5%;
-    height: 310px;
-    margin-top: -20.5%;
-    margin-left: -12px;
-}
-
-#Card9{
-    margin-left: 35px;
-    cursor: pointer;
-}
-
-#Card9 > img {
-    width: 120.5%;
-    height: 310px;
-    margin-top: -20.5%;
-    margin-left: -12px;
-}
-
-#Card10{
-    margin-left: 35px;
-    cursor: pointer;
-}
-
-#Card10 > img {
-    width: 120.5%;
-    height: 310px;
-    margin-top: -20.5%;
-    margin-left: -12px;
-}
-
-#atheleteDiv{
-    margin-left: 5px;
-    margin-right: 12px;
-}
-
-
-#athleteCard > img{
-    height: 490px;
-
-}
-
-#socialHeader{
-    font-family: 'Impact';
+.social-connects .h1{
+    color: rgb(0, 0, 0);
+    font-family: Impact;
     font-style: italic;
-    font-size: 45px;
-    margin-top: 10%; 
 }
 
-#socialDivs{
-    
+.social-connects .card{
+    height: 350px;
+    width: 300px;
+    background: #f5f5f5;
+
+}
+
+.social-cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: auto; margin-right: auto;
+}
+
+.card-social{
+    margin-inline: -2%;
+}
+
+#footer img{
+    height: 30px;
+    margin: 15px 7px;
+}
+
+.footer-list{
+    display: flex;
+    justify-content: end;
+    margin: -53px 35px;
+}
+
+.footer-list h5{
+    color: white;
+    margin: 12px 25px;
+}
+
+.list-unstyled img{
+    height: 20px !important;
+}
+
+.footer-Info{
+    background: #f5f5f5;
+    height: 400px;
+}
+
+.h4{
+    color: black;
+    font-family: Impact;
+    font-style: italic;
+    position: absolute;
+    margin: 2% 3%;
+}
+
+.inputEmail{
+    position: absolute;
+    margin: 5% 3%;
+    border-radius: 5px;
+}
+
+.form-control{
+    border-radius: 10px;
+}
+
+.help-list1{
+    display: flex;
+    position: absolute;
+    margin: 10% 0% ;
+}
+
+.help-list1 ul li{
+    list-style: none;
+}
+
+.help-list2{
+    padding-left: 15%;
+    list-style: none;
+}
+
+.support-list{
+    color: black;
+}
+
+
+
+
+@media (max-width: 414px){
+
+    #firstHeader {
+        font-size: 14px !important;
+        margin: 10% 19% !important;
     }
-    .Div{ 
+
+    #para1 {
+        margin-top: 26% !important;
+        font-size: 10px !important;
+        width: 303px;
+        margin-left: auto; margin-right: auto;
+    }
+    
+
+    #Promo {
+        width: 95%;
+        word-wrap: break-word;
+        margin: 5% 3%;
+    }
+
+    #discountCard {
+        width: 130px;
         margin-left: 3%;
         margin-top: 2%;
-        text-align: center;
-        background: rgb(235, 233, 233);
-        cursor: pointer;
-    }
-
-    #cardPara{
-        margin-top: 15%;
-        font-weight: bold;
-    }
-
-.bottomInfo{
-    margin-top: -4%;
-}    
-/*-------------Footer---------------*/
-#footer{
-    height: 70px;
-    background: black;  
-}
-
-#footerLogo{
-    height: 30px;
-    margin-top: 18px;
-    margin-left: 1.5%;
-}
-
-#Social{
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 20%;
-    margin-top: -23px;
-}
-
-#Social > ul{
-    display: inline-flex;
-    
-}
-
-#Social >ul > li{
-    color: white;
-    padding-inline: 12%;
-}
-
-li > a {
-    color: white !important;  
-}
-
-#bottomHeader{
-    font-family: impact;
-    font-style: italic;
-    color: black;
-    padding: 8% 3.5% 2%;
-}
-
-#email{
-    margin: -1% 3.5%;
-}
-
-#Help{
-    margin: 4% 4%;   
-    float: left;
-}
-    #Help >ul > li{
-        list-style: none;
-    }
-
-    #NeedHelp{
-        font-weight: bold;
-        margin-bottom: 2%;
-}
-
-#OrderSupport{
-    margin-left: 32%;
-    margin-top: 4%;
-    
-}
-    #OrderSupport > ul > li{
-        list-style: none;
-    }
-
-    #OrderShopping{
-        font-weight: bold;
-        margin-bottom: 1%;
-}
-
-.bottomInfo{
-    height: 40rem;
-    }
-
-
-
-@media (max-width: 374px) and (min-width: 280px){
-
-    body{
-        background: rgb(101, 241, 206);
-    }
-
-    #promoCard {
-        margin-left: 40px;
-        margin-left: 3%;
-        margin-top: 25%;
-    }
-
-    #promoCard > img {
-        width: 103%;
         height: 220px;
     }
 
-    #promoCard > h1 {
-        margin-top: -58%;
-        font-size: 17px;
-        margin-left: -3%;
+    #discountCard img{
+        height: 138px;
+        width: 128px
     }
 
-    #PromoMsg {
-        font-size: 7px;
+    #discountCard > div > h4  {
+        font-size: 10px;
     }
 
-    #promoBtn {
-        margin-top: 16%;
-        width: 18%;
-        height: 12%;
-        font-size: 7px;
+    #discountCard > div > h3  {
+        font-size: 11px;
     }
 
-    #Coupon > img {
-        width: 95%;
-        height: 190px;
-        margin-left: -65.4%;
-        margin-top: 15%;
+    #homeProd {
+        margin-left: 3%;
+        margin-top: 2%;
+        width: 130px;
+        height: 220px;
     }
 
-    #couponBtn {
-        margin-left: -230px;
-        margin-top: 54px;
-        height: 25px;
-        width: 25px;
-        font-size: 13px;
+    #homeProd > img {
+        height: 120px;
     }
 
-    #HomeCards {
-        margin-top: -22rem;
+    .card-title {
+        font-size: 10px;
+        text-align: center;
     }
 
-    #Card1 > img {
-        width: 112%;
-        height: 250px;
-        margin-top: -21%;
-        margin-left: 4px;
+    .card-text {
+        margin-bottom: 0rem;
+        font-size: 9px;
+        text-align: center;
     }
 
-    #Card2 > img {
-        width: 111.5%;
-        height: 250px;
-        margin-top: -40.5%;
-        margin-left: 56.5px;
+    .prodName{
+        font-size: 15px;
+        margin-top: 12%;
+        text-align: center;
     }
 
-    #Card3 > img {
-        width: 111.5%;
-        height: 250px;
-        margin-top: -57.5%;
-        margin-left: 56.5px;
+
+
+    .FlashSale img{
+        height: 150px;
     }
 
-    #Card4 > img {
-        width: 111.5%;
-        height: 250px;
-        margin-top: -72.5%;
-        margin-left: 56.5px;
+    #flashSale_h1 {
+        font-size: 16px !important;
+        margin: 5% 4%;
     }
 
-    #Card5 > img {
-        width: 111.5%;
-        height: 250px;
-        margin-top: -88.5%;
-        margin-left: 56.5px;
+    #flashSale_p {
+        font-size: 9px !important;
+        width: 148px;
+        margin-top: 18%;
     }
 
+    .shopBtn  {
+        width: 14% !important;
+        font-size: 6px !important;
+        height: 15% !important;
+        margin: 30% 6%;
+    }
 }
 
-@media (max-width: 429px) and (min-width: 375px){
-    body{
-        background: orangered;
-    }
 
-    #Coupon > img {
-        width: 94%;
-        height: 230px;
-        margin-left: -55%;
-        margin-top: 7%;
-    }
+@media (max-width: 768px){
 
-    #couponBtn {
-        margin-left: -225px;
-        margin-top: 31px;
-        height: 25px;
-        width: 25px;
-        font-size: 13px;
-    }
-
-    #promoCard {
-        height: 650px;
-        margin-left: 40px;
-        margin-top: 8%;
-    }
-
-    #promoCard > img {
-        width: 107%;
-        margin: left;
-        margin-left: -35px;
-        margin-top: 15%;
-        height: 210px;
-    }
-
-    #promoCard > h1 {
-        margin-top: -46%;
-        font-family: fantasy;
-        font-style: italic;
-        font-size: 20px;
-        margin-left: -15%;
-    }
-
-    #PromoMsg {
-        font-size: 8px;
-        margin-left: -16%;
-    }
-
-    #promoBtn {
-        margin-top: 7%;
-        width: 18%;
-        height: 12%;
-        font-size: 8px;
-    }
-
-    #HomeCards {
-        margin-top: -20rem;
-    }
-
-    #Card1 > img {
-        width: 112%;
-        height: 280px;
-        margin-top: -21%;
-        margin-left: 18px;
-    }
-
-    #Card2 > img {
-        height: 280px;
-        margin-left: 67.5px;
-    }
-
-    #Card3 > img {
-        height: 280px;
-        margin-left: 67px;
-    }
-
-    #Card4 > img {
-    height: 280px;
-    margin-left: 65.5px;
-    }
-
-    #Card5 > img {
-        height: 280px;
-        margin-left: 65.5px;
-    }
-
-    .flashSale {
-        margin-top: 2rem;
-        margin-left: -60px;
-    }
-
-    .flashSale > img {
-        height: 200px;
-        width: 105%;
-        margin-left: 18%;
-    }
-
-    #saleHeading {
-        margin-top: -48%;
-        margin-left: 21%;
-        width: 550px;
-        font-size: 20px;
-    }
-
-    #saleText {
-        margin-left: 5rem;
-        width: 45rem;
-        font-size: 8px;
-    }
-
-    #saleBtn {
-        margin-top: 19%;
-        width: 20%;
-        height: 9%;
-        font-size: 10px;
-        margin-left: 5rem;
-    }
-
-    #Shop > h1 {
+    #firstHeader {
         font-size: 25px;
-    }   
-
-    #Card6 > img {
-        width: 120.5%;
-        height: 280px;
-        margin-top: -5.5%;
-        margin-left: 51px;
+        margin: 12% 22%;
     }
 
-    #Card7 > img {
-        width: 120.5%;
-        height: 280px;
-        margin-top: -5.5%;
-        margin-left: 51px;
+    #para1 {
+        margin-top: 28%;
+        font-size: 14px;
     }
 
-    #Card8 > img {
-        width: 120.5%;
-        height: 280px;
-        margin-top: -5.5%;
-        margin-left: 51px;
+    #homeProd{
+        margin-left: 1%;
+        margin-top: 1%;
+        width: 150px; 
+        height: 260px;
+
     }
 
-    #Card9 > img {
-        width: 120.5%;
-        height: 280px;
-        margin-top: -5.5%;
-        margin-left: 51px;
+
+    #homeProd > img{
+        height: 145px;
     }
 
-    #Card10 > img {
-        width: 120.5%;
-        height: 280px;
-        margin-top: -5.5%;
-        margin-left: 51px;
-    }
-
-    #athleteCard > img {
-        height: 280;
-        height: 280px;
-        margin-top: 10%;
-    }
-
-}
-
-@media (max-width: 575.98px) and (min-width: 430px){
-    #promoCard {
-        margin-left: 16px;
-        margin-top: 15%;
-    }
-
-    #promoCard > img {
-        height: 240px;
-    }
-
-    #promoCard > h1 {
-        margin-top: -37%;
-        font-size: 25px;
-    }
-
-    #PromoMsg {
-    font-size: 11px;
-    }
-
-    #promoBtn {
-        margin-top: 4%;
-        width: 15%;
-        height: 10%;
+    #homeProd > div >h5{
         font-size: 10px;
-    }   
+        margin-top: -3px
+    }
 
-    #Coupon {
-        position: fixed;
-        margin-left: 70px;
-        margin-top: 60px;
-    }   
+    #homeProd > div >p{
+        font-size: 10px;
+    }
 
-    #couponBtn {
-        height: 25px;
-        width: 25px;
-        margin-left: -43px;
-        margin-top: 41px;
+    #homeProd > div >h4{
         font-size: 12px;
     }
 
-    #Coupon > img {
-        width: 90%;
-        height: 250px;
+    #discountCard{
+        width: 150px;
+        margin-left: 1%;
+        margin-top: 1%;
+        height: 260px;
     }
 
-    #HomeCards {
-        margin-top: -60%;
+    #discountCard >img{
+        width: 150px;
+        margin-left: -13px;
     }
 
-    .HomeCards{
-        height: 275px;
-        margin-top: 4%;
+    #discountCard > div > h4 {
+        font-size: 10px;
+        margin: 18px -6px;
     }
 
-    #Card1 > img {
-        width: 112%;
-        height: 240px;
-        margin-top: -21%;
-        margin-left: -17px;
+    #discountCard > div > h3 {
+        font-size: 12px;
     }
-
-    #Card2 > img {
-        width: 111.5%;
-        height: 240px;
-        margin-top: -20.5%;
-        margin-left: 20px;
-    }
-
-    #Card3 > img {
-        width: 112%;
-        height: 240px;
-        margin-top: -35.5%;
-        margin-left: 35.5px;
-    }
-
-    #Card4 > img {
-        width: 111.5%;
-        height: 240px;
-        margin-top: -35.5%;
-        margin-left: 72.5px;
-    }
-
-    #Card5 > img {
-        margin-top: -48.5%;
-        margin-left: 35.5px;
-        height: 240px;
-    }
-
-    .flashSale{
-        margin-top: -2rem;
-        margin-left: 8px;
-    }
-
-    .flashSale > img {
-        height: 250px;
-        width: 140%;
-        margin-left: 3%;
-    }
-
-    #saleHeading {
-        margin-top: -14rem;
-        margin-left: 8%;
-        width: 550px;
+    
+    #flashSale_h1{
         font-size: 25px;
-    } 
-    
-    #saleText {
-        margin-left: 28px;
+    }
+
+    #flashSale_p {
+        font-size: 12px;
+    }
+
+    .shopBtn {
+        width: 10%;
         font-size: 10px;
+        height: 18%;
     }
 
-    #saleBtn {
-        margin-top: 26%;
-        width: 25%;
-        font-family: 'Impact';
-        font-style: italic;
-        font-size: 10px;
-        margin-left: 2rem;
+    #goal {
+        margin-top: -12rem;
+        font-size: 20px;
+        
     }
 
-    #Card6 > img {
-        width: 112%;
-        height: 240px;
-        margin-top: -21%;
-        margin-left: 35.5px;
+    #goalCard a {
+        font-size: 12px;
     }
 
-    #Card7 > img {
-        width: 111.5%;
-        height: 240px;
-        margin-top: -20.5%;
-        margin-left: 72.5px;
+    #goalCard {
+        width: 200px;
+        height: 280px;
+        margin-left: 10px;
+        margin-top: 1%;
     }
 
-    #Card8 > img {
-        width: 112%;
-        height: 240px;
-        margin-top: -35.5%;
-        margin-left: 35.5px;
-    }
-
-    #Card9 > img {
-        width: 111.5%;
-        height: 240px;
-        margin-top: -35.5%;
-        margin-left: 72.5px;
-    }
-
-    #Card10 > img {
-        width: 111.5%;
-        margin-top: -48.5%;
-        margin-left: 35.5px;
-        height: 240px;
-    }
-
-    #Shop {
-        margin-top: 2rem;
-    }   
-
-    #athleteCard{
-        margin-left: 6%;
-        margin-top: 5%;
-    }
-
-    #athleteCard > img {
-        height: 325px;
+    #goalCard img {
+        width: 200px;
+        height: 280px;
+        margin-left: -15px;
     }
     
-
-
-    
-   
+}

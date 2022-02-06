@@ -1,33 +1,285 @@
-[
-    {
-        "id": 1,
-        "category_id": 1,
-        "product": "Supplement",
-        "name": "GoldWhey",
-        "weight": "4 lbs",
-        "price": "5500 Rs",
-    },
+{   
+    "proteins":[   
+        {
+            "id": 1,
+            "category": "Shop",
+            "category_id": "Whey Protein",
+            "name": "GoldWhey",
+            "brand": "Optimum Nutriton",
+            "weight": "4.2 lbs",
+            "price": "5800 Rs",
+            "rating":"4.2"
+        },
+        {
+            "id": 1,
+            "category": "Shop",
+            "category_id": "Mass Gainer",
+            "name": "Serious Mass Gainer",
+            "brand": "Optimum Nutriton",
+            "weight": "6 lbs",
+            "price": "3250 Rs",
+            "rating":"3.8"
+        },
+        {
+            "id": 1,
+            "category_id": "Whey Protein",
+            "category": "Shop",
+            "name": "Nitro Tech",
+            "brand":"MuscleTech",
+            "weight": "4 lbs",
+            "price": "5300 Rs",
+            "rating":"4.3"
+        },
+        {
+            "id": 1,
+            "category": "Shop",
+            "category_id": "Mass Gainer",
+            "name": "Mass Tech",
+            "brand":"MuscleTech",
+            "weight": "7 lbs",
+            "price": "5600 Rs",
+            "rating":"4.0"
+        },
+        {
+            "id": 1,
+            "category": "Shop",
+            "category_id": "Whey Protein",
+            "name": "Crud Whey",
+            "brand":"Big Muscle",
+            "weight": "2.1 lbs",
+            "price": "949 Rs",
+            "rating":"3.9"
+        },
+        {
+            "id": 1,
+            "category": "Shop",
+            "category_id": "Whey Protein",
+            "name": "ISO Whey",
+            "brand":"Muscle Blaze",
+            "weight": "6.6 lbs",
+            "price": "2949 Rs",
+            "rating":"4.0"
+        },
+        {
+            "id": 1,
+            "category": "Shop",
+            "category_id": "Casein Protein",
+            "name": "Kaged Muscle KASIEN",
+            "brand":"Kaged Muscle",
+            "weight": "907 gm",
+            "price": "2596 Rs",
+            "rating":"4.5"
+        },      
+        {
+            "id": 1,
+            "category": "Shop",
+            "category_id": "Protien Bars",
+            "name": "Protien Wafers",
+            "brand":"Optimum Nutriton",
+            "size": "9-2 Wafer Packs",
+            "price": "1854 Rs",
+            "rating":"4.5"
+        }      
+    ],
+            
+    "performance":[   
+        {
+            "id": 1,
+            "category": "Shop",
+            "category_id": "Whey Protein",
+            "name": "GoldWhey",
+            "brand": "Optimum Nutriton",
+            "weight": "4.2 lbs",
+            "price": "5800 Rs",
+            "rating":"4.2"
+        },
+        {
+            "id": 1,
+            "category": "Shop",
+            "category_id": "Whey Protein",
+            "name": "Serious Mass Gainer",
+            "brand": "Optimum Nutriton",
+            "weight": "6 lbs",
+            "price": "3250 Rs",
+            "rating":"3.8"
+        },
+        {
+            "id": 1,
+            "category_id": "Whey Protein",
+            "category": "Shop",
+            "name": "Nitro Tech",
+            "brand":"MuscleTech",
+            "weight": "4 lbs",
+            "price": "5300 Rs",
+            "rating":"4.3"
+        },
+        {
+            "id": 1,
+            "category": "Shop",
+            "category_id": "Whey Protein",
+            "name": "Mass Tech",
+            "brand":"MuscleTech",
+            "weight": "7 lbs",
+            "price": "5600 Rs",
+            "rating":"4.0"
+        },
+        {
+            "id": 1,
+            "category": "Shop",
+            "category_id": "Whey Protein",
+            "name": "Crud Whey",
+            "brand":"Big Muscle",
+            "weight": "2.1 lbs",
+            "price": "949 Rs",
+            "rating":"3.9"
+        },
+        {
+            "id": 1,
+            "category": "Shop",
+            "category_id": "Whey Protein",
+            "name": "ISO Whey",
+            "brand":"Muscle Blaze",
+            "weight": "6.6 lbs",
+            "price": "2949 Rs",
+            "rating":"4.0"
+        }   
+    ],
 
-    {
-        "id": 2,
-        "category_id": 2,
-        "product": "Clothing",
-        "type": "T-Shirt",
-        "size": "S" "M" "L" "XL",
-        "price": "1500 Rs",
-    },
-    
-    {
-        "id": 3,
-        "category_id": "Diet_Meals",
-        "product_type": "Food",
-        "price": "Depends_On_Plan"
-    },
-
-    {
-        "id": 4,
-        "category_id": 4,
-        "type": "Excercise",
-        "price": "Depends_On_Plan"
-    }
-]
+    "mens sports wear":[
+        {
+            "id": 2,
+            "category_id": 2,
+            "category": "Clothing",
+            "type": "T-Shirt",
+            "gender":"Male",
+            "size": "S" "M" "L" "XL",
+            "price": "1500 Rs",
+            "rating":"3.8"
+        },
+        {
+            "id": 2,
+            "category_id": 2,
+            "category": "Clothing",
+            "type": "Joggers Pant",
+            "gender":"Male",
+            "size": "S" "M" "L" "XL",
+            "price": "1500 Rs",
+            "rating":"3.8"
+        },
+        {
+            "id": 2,
+            "category_id": 2,
+            "category": "Clothing",
+            "type": "Trunk",
+            "gender":"Male",
+            "size": "S" "M" "L" "XL",
+            "price": "1500 Rs",
+            "rating":"3.8"
+        },
+        {
+            "id": 2,
+            "category_id": 2,
+            "category": "Clothing",
+            "type": "Track Pant",
+            "gender":"Male",
+            "size": "S" "M" "L" "XL",
+            "price": "1500 Rs",
+            "rating":"3.8"
+        }
+    ],    
+        "womens sports wear":[
+        {
+            "id": 2,
+            "category_id": 2,
+            "category": "Clothing",
+            "type": "T-Shirt",
+            "gender":"Female",
+            "size": "S" "M" "L" "XL",
+            "price": "1500 Rs",
+            "rating":"3.8"
+        },
+        {
+            "id": 2,
+            "category_id": 2,
+            "category": "Clothing",
+            "type": "Joggers Pant",
+            "gender":"Female",
+            "size": "S" "M" "L" "XL",
+            "price": "1500 Rs",
+            "rating":"3.8"
+        },
+        {
+            "id": 2,
+            "category_id": 2,
+            "category": "Clothing",
+            "type": "Jeggins",
+            "gender":"Female",
+            "size": "S" "M" "L" "XL",
+            "price": "1500 Rs",
+            "rating":"3.8"
+        },
+        {
+            "id": 2,
+            "category_id": 2,
+            "category": "Clothing",
+            "type": "Track Pant",
+            "gender":"leggins",
+            "size": "S" "M" "L" "XL",
+            "price": "1500 Rs",
+            "rating":"3.8"
+        } 
+    ],
+        "Diet_Meals":[
+        {
+            "id": 3,
+            "category_id": "Diet_Meals",
+            "name": "Oat Meal",
+            "product_type": "Eatable",
+        },
+        {
+            "id": 3,
+            "category_id": "Diet_Meals",
+            "name": "Tuna and Salad",
+            "product_type": "Food",
+        },
+        {
+            "id": 3,
+            "category_id": "Diet_Meals",
+            "name": "Brown Rice",
+            "product_type": "Food",
+        },
+        {
+            "id": 3,
+            "category_id": "Diet_Meals",
+            "name": "Rooted Veggies",
+            "product_type": "Food"
+        }
+    ],    
+        "Workouts":[
+        {
+            "id": 4,
+            "category_id": 4,
+            "category": "Workouts",
+            "name": "Chest Press"
+            
+        },
+        {
+            "id": 4,
+            "category_id": 4,
+            "category": "Workouts",
+            "name": "Peck Fly"
+        },
+        {
+            "id": 4,
+            "category_id": 4,
+            "category": "Workouts",
+            "name": "Dumbell Press"
+        },
+        {
+            "id": 4,
+            "category_id": 4,
+            "category": "Workouts",
+            "name": "Dumbell Press"
+        },
+    ]   
+}

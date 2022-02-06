@@ -1,0 +1,26 @@
+{
+  "name": "bbclone",
+  "version": "1.0.0",
+  "description": "second_project",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZahidK07/Project_2_Document.git"
+  },
+  "keywords": [
+    "node",
+    "npm"
+  ],
+  "author": "zahidK07",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZahidK07/Project_2_Document/issues"
+  },
+  "homepage": "https://github.com/ZahidK07/Project_2_Document#readme",
+  "dependencies": {
+    "chai": "^4.3.6"
+  }
+}
