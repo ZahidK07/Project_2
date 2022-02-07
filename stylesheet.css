@@ -277,7 +277,7 @@ body{
 
 .footer-Info{
     background: #f5f5f5;
-    height: 400px;
+    height: 600px;
 }
 
 .h4{
@@ -317,6 +317,41 @@ body{
     color: black;
 }
 
+.bottomInfo{
+    position: absolute;
+    margin: 25% 12px;
+}
+
+
+.bottomInfo ul li{
+    display :inline-flex ;
+    text-decoration: underline;
+    cursor: pointer;  
+    margin: 0% 8px;  
+}
+
+.lowestLine{
+    border: solid rgb(151, 150, 150) 1px;
+    position: absolute;
+}
+
+.Copyrigths{
+    position: absolute;
+    margin: 30rem 2% ;
+    display: block;
+}
+
+.Copyrigths p{
+    display: initial;
+}
+
+.lastpara1{
+
+}
+
+.lastPara2{
+    font-size: 12px;
+}
 
 
 
