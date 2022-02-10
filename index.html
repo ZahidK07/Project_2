@@ -13,7 +13,7 @@
         </script>
         <link rel="stylesheet" href="./stylesheet.css">
         <title>Bodybuilding.com - Huge Online Supplement Store & Fitness Community!</title>
-        <script src="./coupon.js"></script>
+        <script src="./script.js"></script>
     </head>
 
     <body>
@@ -46,10 +46,16 @@
             </div>
         </nav>
         <!-------------------COUPON--------------------->
-        <!--<div id="Coupon">
-            <button onClick="noCoupon()" id="couponBtn">&times;</button>
-            <img src="./Data/Home-ShopPage/Coupon.jpg" alt="coupon">
-        </div>-->
+        <div class="container">
+            <div class="row">
+                <div class="">
+                    <div  id="Coupon">
+                        <button onClick="noCoupon()" id="couponBtn">&times;</button>
+                        <img src="./Data/Home-ShopPage/Coupon.jpg" alt="coupon">
+                    </div>
+                </div>
+            </div>
+        </div>
         <!-------------------PROMO CARD--------------------->
         <div class="row">
             <div id="Promo">
@@ -58,7 +64,7 @@
                     <h1 class="card-header text-center" id="firstHeader">GET $10 OFF $89+<br>+<br>MEMBERS SAVE AN ETRA
                         15% OFF</h1>
                     <p class="card-text text-center" id="para1"><strong>Kickstart the New Year with amazing savings to
-                            crush your goals<br></strong>Use Code: <strong>GET10</strong>INDIA only. Exclusions apply.
+                            crush your goals<br></strong>Use Code: <strong>GET10</strong> INDIA only. Exclusions apply.
                     </p>
                 </div>
             </div>
@@ -195,13 +201,13 @@
 
         <div class="row social-connects">
             <h1 class="h1 text-center">CONNECT WITH US</h1>
-            <div class=" row container social-cards mt-5">
+            <div class=" row container social-cards">
                 <div class="card card-social">
                     <div class="card-body">
                         <div id="connectSocial">
                             <img src="../2nd Project/Data/social media Icons/Insta.png" alt="InstaLogo">
                         </div>
-                        <h5 class="text-center card-title">@bodybuildingcom</h5>
+                        <h5 class="h5 text-center card-title">@bodybuildingcom</h5>
                         <p class="card-text mt-4">Digital does of workouts, community stories, and motivation every goal
                         </p>
                         <h6 class="h6 text-center"><a href="">FOLLOW US</a></h6>
@@ -213,9 +219,9 @@
                         <div id="connectSocial">
                             <img id="connectSocial" src="./Data/social media Icons/tiktok_logo.png" alt="TiktokLogo">
                         </div>
-                        <h5 class="text-center card-title">@bodybuildingcom</h5>
+                        <h5 class="h5 text-center card-title">@bodybuildingcom</h5>
                         <p class="card-text mt-4">Fitness isn't always serious.<br>Follow us for laughs and latest
-                        trends</p>
+                            trends</p>
                         <h6 class="h6 text-center"><a href="">FOLLOW THE MOVEMENT</a></h6>
                     </div>
                 </div>
@@ -224,18 +230,18 @@
                         <div id="connectSocial">
                             <img src="./Data/social media Icons/youtube-logo.png" alt="YoutubeLogo">
                         </div>
-                        <h5 class="text-center card-title">@bodybuildingcom</h5>
+                        <h5 class="h5 text-center card-title">@bodybuildingcom</h5>
                         <p class="card-text mt-4">Listen up, class! Professor BBCOM is here to educate and motivate!</p>
                         <h6 style="margin-top: 17%" class="h6 text-center"><a href="">SUBSCRIBE</a></h6>
                     </div>
                 </div>
-                
+
                 <div class="card card-social">
                     <div class="card-body">
                         <div id="connectSocial">
                             <img src="./Data/social media Icons/fblogo.png" alt="FbLogo">
                         </div>
-                        <h5 class="text-center card-title">@bodybuildingcom</h5>
+                        <h5 class="h5 text-center card-title">@bodybuildingcom</h5>
                         <p class="card-text mt-4">A huge community of virtual lifting partners waiting to welcome you.
                         </p>
                         <h6 class="h6 text-center"><a href="">JOIN THE COMMUNITY</a></h6>
@@ -257,20 +263,17 @@
             <div class="footer-list">
                 <h5>Connect With Us</h5>
                 <ul class="list-group list-group-horizontal">
-                    <li class="list-unstyled"><a href=""><img src="./Data/social media Icons/fbwhite.png"
-                                alt=""></a></li>
-                    <li class="list-unstyled"><a href=""><img
-                                src="./Data/social media Icons/twitterWhite.png"></a></li>
-                    <li class="list-unstyled"><a href=""><img
-                                src="./Data/social media Icons/yotubeWhite.png"></a></li>
-                    <li class="list-unstyled"><a href=""><img
-                                src="./Data/social media Icons/fbwhite.png"></a></li>
+                    <li class="list-unstyled"><a href=""><img src="./Data/social media Icons/InstaWhite.png" alt=""></a>
+                    </li>
+                    <li class="list-unstyled"><a href=""><img src="./Data/social media Icons/twitterWhite.png"></a></li>
+                    <li class="list-unstyled"><a href=""><img src="./Data/social media Icons/yotubeWhite.png"></a></li>
+                    <li class="list-unstyled"><a href=""><img src="./Data/social media Icons/fbwhite.png"></a></li>
                 </ul>
             </div>
         </div>
         <div class="container-fluid footer-Info">
             <h4 class="h4">GET THE LATEST NEWS SENT TO RIGHT TO YOUR INBOX</h4>
-            <div class="col-lg-3 col-md=3 col-sm-2 col inputEmail">
+            <div class="col-lg-3 col-md-3 col-sm-5 col inputEmail">
                 <input type="text" class="form-control" placeholder="Your Email">
             </div>
             <div class="container help-list1">
@@ -310,14 +313,20 @@
                     <li><a href=""></a>CA Supply Chain Act</li>
                 </ul>
             </div>
+            <div class="lowestLine"></div>
             <div class="Copyrigths">
-                <p class="card-text lastpara1">&#169;1999-2022 Bodybuilding.com All rights reserved. Bodybuilding.com&#8482; and Body Space&#174; are trademark of Bodybuilding.com.</p><br> <p class="card-text lastPara2">Always Consult with a qualified health care professional prior to begining any diet or excercise program or taking any dietry supplement. The content on our website is for informational and educational purposes only and is not intended as medical advice or to replace a relationship with a qaulified healthcare professional.</p>
+                <p class="card-text lastpara1">&#169;1999-2022 Bodybuilding.com All rights reserved.
+                    Bodybuilding.com&#8482; and Body Space&#174; are trademark of Bodybuilding.com.</p><br>
+                <p class="card-text lastPara2">Always Consult with a qualified health care professional prior to
+                    begining any diet or excercise program or taking any dietry supplement. The content on our website
+                    is for informational and educational purposes only and is not intended as medical advice or to
+                    replace a relationship with a qaulified healthcare professional.</p>
             </div>
         </div>
-        
+
         <!-------------------Footer--------------------->
         <script>
-            //window.onload = discOffer()//
+            window.onload = myOffer()
         </script>
     </body>
 

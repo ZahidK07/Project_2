@@ -36,16 +36,27 @@ body{
     text-decoration: underline blue;
 }
 
-
 #Coupon{
-    width: 350px;
-    height: 250px;
-    border: solid red;
+    position: absolute;
+    z-index: 100;
+    margin: 2% 17%;
+    height: 30rem;
+}
+
+#Coupon img{
+    height: 30rem;
+}
+
+
+#couponBtn{
+    position: absolute;
+    z-index: 100;
+    font-size: 25px;
+    margin: 4px 4px;
+    height: 12%;
+    width: 7%;
     background: black;
-    position: fixed;
-    z-index: 1000;
-    margin-left: 15rem;
-    margin-top: -2%;    
+    color: coral;
 }
 
 #Promo{ 
@@ -207,11 +218,6 @@ body{
     font-size: 18px;
 }
 
-#footer{
-    height: 60px;
-    background: black;
-    margin-top: 10rem;
-}
 
 .social-connects{
     height: 400px;
@@ -253,6 +259,12 @@ body{
 
 .card-social{
     margin-inline: -2%;
+}
+
+#footer{
+    height: 60px;
+    background: black;
+    margin-top: 10rem;
 }
 
 #footer img{
@@ -333,11 +345,13 @@ body{
 .lowestLine{
     border: solid rgb(151, 150, 150) 1px;
     position: absolute;
+    width: 80%;
+    margin: 30rem 1rem;
 }
 
 .Copyrigths{
     position: absolute;
-    margin: 30rem 2% ;
+    margin: 31rem 1% ;
     display: block;
 }
 
@@ -345,17 +359,83 @@ body{
     display: initial;
 }
 
-.lastpara1{
-
-}
 
 .lastPara2{
     font-size: 12px;
 }
 
+@media only screen and (max-width: 375px){
+
+    .d-flex {
+        margin: -9% 8% !important;
+        width: 70% !important;
+    }
+
+    #discountCard {
+        width: 180px !important;
+        margin-top: 10% !important;
+        height: 280px !important ;
+        margin-left: 40% !important;
+    }
+
+    #discountCard img{
+        width: 180px !important;
+        height: 200px !important;
+    }
+    
+    #homeProd {
+        margin-left: 40% !important;
+        margin-top: 4% !important;
+        width: 180px !important;
+        height: 280px !important;
+    }
+
+    #homeProd img{
+        height: 280px !important;
+        width: 150px !important;
+    }
+
+   .shopBtn {
+        width: 11%;
+        font-size: 25px;
+        height: 19%;
+        position: absolute;
+        margin: 14% 5%;
+    }
+}
+
+@media only screen and (max-width: 450px){
+
+    .d-flex{
+        margin: -9% 0% !important;
+        width: 70% !important;
+    }
+
+    .form-control {
+        border-radius: 10px;
+        height: 30px !important;
+        margin: 16% 8% !important;
+    }
 
 
-@media (max-width: 414px){
+    .btn-primary {
+        height: 5% !important;
+        margin: 16% 2% !important;
+        font-size: 12px;
+    }
+
+    #Coupon img {
+        height: 10rem !important;
+        width: 20rem ;
+        margin: 1% 7% ;
+    }
+
+    #couponBtn {
+        font-size: 11px !important;
+        margin: 6px 24px !important;
+        height: 4% !important;
+        width: 7% !important;
+    }
 
     #firstHeader {
         font-size: 14px !important;
@@ -425,7 +505,6 @@ body{
     }
 
 
-
     .FlashSale img{
         height: 150px;
     }
@@ -447,10 +526,100 @@ body{
         height: 15% !important;
         margin: 30% 6%;
     }
+
+    #goalCard {
+        width: 140px;
+        height: 200px;
+        margin-left: 10px;
+        margin-top: 1%;
+    }
+
+    #goalCard img {
+        width: 140px;
+        height: 200px;
+        margin-left: -15px;
+    }
+
+    .social-connects .h1 {
+        margin-top: 15%;
+    }
+
+    .footer-list h5 {
+    margin: 10px 25px;
+    font-size: 15px !important;
+    }
+
+    #footer img {
+        height: 16px !important;
+        margin: 17px 2px !important;
+    }
+
+    .list-unstyled li {
+        height: 8px !important;
+        font-size: 8px !important;
+    }
+
+    .footer-list {
+        margin: -47px 15px
+    }
+
+    .card-social {
+        margin-inline: -2%;
+    }
+
+    #footer {
+        margin-top: 15rem;
+    }
+
+    .h4 {
+        margin: 7% 3% !important;
+        font-size: 15px !important;
+    }
+
+    .form-control {
+        border-radius: 10px;
+        height: 30px;
+        margin: 17% -1% !important;
+    }
+
+     .help-list1 {
+        margin: 30% -7% !important;
+        font-size: 11px;
+    }
+
+    .bottomInfo {
+        display: flex;
+        margin: 67% -22px !important;
+        font-size: 12px;
+    }
+
+    .bottomInfo ul li {
+        display: block !important;
+        margin: 0% 11px !important;
+    }
+
+    .lowestLine {
+        margin: 27rem 1rem ;
+    }
 }
 
 
-@media (max-width: 768px){
+@media only screen and (max-width: 768px){
+
+    #Coupon {
+        margin: 2% -2%;
+    }
+
+    #Coupon img {
+        height: 20rem;
+    }
+
+    #couponBtn {
+        font-size: 20px;
+        margin: 4px 4px;
+        height: 8%;
+        width: 7%;
+    }
 
     #firstHeader {
         font-size: 25px;
@@ -545,5 +714,84 @@ body{
         height: 280px;
         margin-left: -15px;
     }
+
+    .social-connects .card {
+        height: 240px;
+        width: 175px;
+    }
     
+    #connectSocial img {
+        height: 18px;
+        width: 18px;
+    }
+
+    .card-social {
+        margin-inline: 0%;
+    }
+
+    .card-social h5{
+        font-size: 13px;
+    }
+
+    .card-social p{
+        font-size: 11px;
+    }
+
+     .card-social h6{
+        font-size: 9px;
+    }
+
+    #footer {
+        height: 50px;
+    }
+
+    #footer img {
+        height: 25px;
+        margin: 16px 6px;
+    }
+
+    .footer-list h5 {
+        margin: 13px 25px;
+        font-size: 17px;
+        
+    }
+
+    .list-unstyled img {
+        height: 15px !important;
+    }
+
+    .form-control {
+        border-radius: 10px;
+        height: 35px;
+        margin: 8% -1%;
+    }
+
+    .h4 {
+        margin: 3% 3%;
+        font-size: 18px;
+    }
+
+    .help-list1 {
+        margin: 18% -3%;
+        font-size: 11px;
+    }
+
+    .bottomInfo {
+        margin: 40% -23px;
+        font-size: 12px;
+    }
+
+    .bottomInfo ul li {
+        margin: 0% 2px;
+        font-size: 11px;
+    }
+
+    .lastpara1{
+        font-size: 11.5px;
+    }
+
+    .lastPara2{
+        font-size: 10px;
+    }
+
 }
