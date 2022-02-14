@@ -12,4 +12,8 @@
         "id":3,
         "category":"Workouts",
     },
+    {
+        "id":4,
+        "category":"Community",
+    },
 ]

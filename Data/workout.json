@@ -1,0 +1,53 @@
+{
+    "Workouts":[
+        {
+            "id": 1,
+            "category_id": 3,
+            "category": "Workouts",
+            "name": "Chest Press",
+            "muscle type": "Chest"
+        },
+        {
+            "id": 2,
+            "category_id": 3,
+            "category": "Workouts",
+            "name": "Peck Fly",
+            "muscle type": "Chest"
+        },
+        {
+            "id": 3,
+            "category_id": 3,
+            "category": "Workouts",
+            "name": "Lat Pull Down",
+            "muscle type": "Back"
+        },
+        {
+            "id": 5,
+            "category_id": 3,
+            "category": "Workouts",
+            "name": "Squats",
+            "muscle type":"Legs"
+        },
+        {
+            "id": 6,
+            "category_id": 3,
+            "category": "Workouts",
+            "name": "Shoulder Press",
+            "muscle type":"Delts"
+        },
+        {
+            "id": 7,
+            "category_id": 3,
+            "category": "Workouts",
+            "name": "Bicep Curls",
+            "muscle type":"Bicep"
+        },
+        {
+            "id": 8,
+            "category_id": 3,
+            "category": "Workouts",
+            "name": "Tricep Pushdown",
+            "muscle type":"Tricep"
+        }
+    ]
+}    

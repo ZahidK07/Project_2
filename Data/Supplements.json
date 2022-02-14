@@ -1,0 +1,46 @@
+{
+    "supplementsType":[
+        {
+            "id":1,
+            "category": "Shop",
+            "category_id":"Whey Protein",
+            "type":"Protien",
+            "sub-type":"Muscle Building"
+        },
+        {
+            "id":1,
+            "category": "Shop",
+            "category_id":"Mass Gainer",
+            "type":"Gainer",
+            "sub-type":"Weight Gainer"
+        },
+        {
+            "id":1,
+            "category": "Shop",
+            "category_id":"Pre-Workout",
+            "type":"Energy",
+            "sub-type":"Energy Booster"
+        },
+        {
+            "id":1,
+            "category": "Shop",
+            "category_id":"Post-Workout",
+            "type":"Energy",
+            "sub-type":"Energy Recovery"
+        },
+        {
+            "id":1,
+            "category": "Shop",
+            "category_id":"Creatine",
+            "type":"Strength",
+            "sub-type":"Strength Recovery"
+        },
+        {
+            "id":1,
+            "category": "Shop",
+            "category_id":"Fat Burners",
+            "type":"Weight Loss",
+            "sub-type":""
+        }
+    ]
+}

@@ -1,0 +1,213 @@
+{   
+    "proteins":[   
+        {
+            "id": 1,
+            "category": "Shop",
+            "category_id": "Whey Protein",
+            "name": "GoldWhey",
+            "brand": "Optimum Nutriton",
+            "weight": "4.2 lbs",
+            "price": "5800 Rs",
+            "rating":"4.2"
+        },
+        {
+            "id": 1,
+            "category": "Shop",
+            "category_id": "Mass Gainer",
+            "name": "Serious Mass Gainer",
+            "brand": "Optimum Nutriton",
+            "weight": "6 lbs",
+            "price": "3250 Rs",
+            "rating":"3.8"
+        },
+        {
+            "id": 1,
+            "category_id": "Whey Protein",
+            "category": "Shop",
+            "name": "Nitro Tech",
+            "brand":"MuscleTech",
+            "weight": "4 lbs",
+            "price": "5300 Rs",
+            "rating":"4.3"
+        },
+        {
+            "id": 1,
+            "category": "Shop",
+            "category_id": "Mass Gainer",
+            "name": "Mass Tech",
+            "brand":"MuscleTech",
+            "weight": "7 lbs",
+            "price": "5600 Rs",
+            "rating":"4.0"
+        },
+        {
+            "id": 1,
+            "category": "Shop",
+            "category_id": "Whey Protein",
+            "name": "Crud Whey",
+            "brand":"Big Muscle",
+            "weight": "2.1 lbs",
+            "price": "949 Rs",
+            "rating":"3.9"
+        },
+        {
+            "id": 1,
+            "category": "Shop",
+            "category_id": "Whey Protein",
+            "name": "ISO Whey",
+            "brand":"Muscle Blaze",
+            "weight": "6.6 lbs",
+            "price": "2949 Rs",
+            "rating":"4.0"
+        },
+        {
+            "id": 1,
+            "category": "Shop",
+            "category_id": "Casein Protein",
+            "name": "Kaged Muscle KASIEN",
+            "brand":"Kaged Muscle",
+            "weight": "907 gm",
+            "price": "2596 Rs",
+            "rating":"4.5"
+        },      
+        {
+            "id": 1,
+            "category": "Shop",
+            "category_id": "Protien Bars",
+            "name": "Protien Wafers",
+            "brand":"Optimum Nutriton",
+            "size": "9-2 Wafer Packs",
+            "price": "1854 Rs",
+            "rating":"4.5"
+        }      
+    ],
+            
+    "performance":[   
+        {
+            "id": 1,
+            "category": "Shop",
+            "category_id": "Pre-Workout",
+            "name": "C4 RIPPED",
+            "brand": "Cellucor",
+            "size": "30 Servings",
+            "price": "Rs 2,967.37",
+            "rating":"4.2"
+        },
+        {
+            "id": 1,
+            "category": "Shop",
+            "category_id": "Pre-Workout",
+            "name": "Signature Pre-Workout",
+            "brand": "Bodybuilding.com Signature",
+            "size": "30 Servings",
+            "price": "Rs 2,213.3",
+            "rating":"3.8"
+        },
+        {
+            "id": 1,
+            "category_id": "Shop",
+            "category": "Pre-Workout",
+            "name": "Pre-Kaged Elite",
+            "brand":"Kaged Muscle",
+            "size": "20 Servings",
+            "price": "Rs 4,059.32",
+            "rating":"4.3"
+        },
+        {
+            "id": 1,
+            "category_id": "Shop",
+            "category": "Post-Workout",
+            "name": "Amino Lean",
+            "brand":"RSP Nutrition",
+            "size": "30 Servings",
+            "price": "Rs 1,852.84",
+            "rating":"4.3"
+        },
+        {
+            "id": 1,
+            "category_id": "Shop",
+            "category": "Post-Workout",
+            "name": "Swolverine L-Glutamine",
+            "brand":"Swolverine",
+            "size": "20 Servings",
+            "price": "Rs 2,596.35",
+            "rating":"5"
+        },
+        {
+            "id": 1,
+            "category_id": "Shop",
+            "category": "Post-Workout",
+            "name": "Signature BCAA",
+            "brand":"Bodybuilding.com Signature",
+            "size": "30 Servings",
+            "price": "Rs 1,780.12",
+            "rating":"4.5"
+        },
+        {
+            "id": 1,
+            "category": "Shop",
+            "category_id": "Creatine",
+            "name": "Sinature Creatine",
+            "brand": "Bodybuilding.com",
+            "size": "400 Grams",
+            "price": "Rs 2,238.12",
+            "rating":"4.1"
+        },
+        {
+            "id": 1,
+            "category": "Shop",
+            "category_id": "Creatine",
+            "name": "Universal Nutrition Creatine",
+            "brand": "Universal Nutrition",
+            "size": "500 Grams",
+            "price": "Rs 1,3349.91",
+            "rating":"4.5"
+        },
+        {
+            "id": 1,
+            "category": "Shop",
+            "category_id": "Creatine",
+            "name": "Optimum Nutrition Micronized",
+            "brand": "Optimum Nutrition",
+            "size": "28 Servings",
+            "price": "Rs 1,444.00",
+            "rating":"4.0"
+        }
+    ],
+
+    "weight management":[
+        {
+            "id": 1,
+            "category": "Shop",
+            "category_id": "Fat Burners",
+            "name": "Hydroxycut",
+            "brand":"MuscleTech",
+            "size": "50 Servings",
+            "price": "2,369.80 Rs",
+            "rating":"4.5"
+
+        },
+        {
+            "id": 1,
+            "category": "Shop",
+            "category_id": "Fat Burners",
+            "name": "Enhanced Yohimbine",
+            "brand":"Enhanced",
+            "size": "120 Servings",
+            "price": "1,483.31 Rs",
+            "rating":"4.2"
+
+        },
+        {
+            "id": 1,
+            "category": "Weight Loss",
+            "category_id": "Fat Burners",
+            "name": "Cira Nutrition Fare",
+            "brand":"Cira Nutrition",
+            "size": "30 Servings",
+            "price": "2,967.37 Rs",
+            "rating":"4.0"
+
+        }
+    ]        
+}
